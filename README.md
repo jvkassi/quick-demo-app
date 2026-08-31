@@ -10,6 +10,11 @@ Open http://localhost:3000
 
 ## Deploy
 
-This is a standard Next.js app. It deploys on Vercel with zero config: import the GitHub repo and ship.
+GitHub Actions deploys this app to Vercel:
+
+- Push to `main` → production (`deploy-production.yml`)
+- Push to any other branch or open a PR → preview (`deploy-preview.yml`)
+
+Required repository secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
 
 Repo: https://github.com/jvkassi/quick-demo-app
