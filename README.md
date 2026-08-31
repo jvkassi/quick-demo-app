@@ -12,9 +12,9 @@ Open http://localhost:3000
 
 GitHub Actions deploys this app to Vercel:
 
-- Push to `main` → production (`deploy-production.yml`)
-- Push to any other branch or open a PR → preview (`deploy-preview.yml`)
+- Push to `main` → production
+- Other branches / PRs → preview
 
-Required repository secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
+Add a `VERCEL_TOKEN` repository secret, then push (or re-run the workflow).
 
 Repo: https://github.com/jvkassi/quick-demo-app
